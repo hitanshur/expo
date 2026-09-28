@@ -10,6 +10,7 @@
 
 ### 💡 Others
 
+- [Android] Stop passing `BuildConfig.IS_NEW_ARCHITECTURE_ENABLED` to `ReactActivityDelegateWrapper` in the generated `MainActivity`. ([#47286](https://github.com/expo/expo/pull/47286) by [@Wenszel](https://github.com/Wenszel))
 ## 0.18.0 — 2026-09-15
 
 ### 🎉 New features
