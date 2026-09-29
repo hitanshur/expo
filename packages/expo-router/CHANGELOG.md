@@ -1,5 +1,15 @@
 # Changelog
 
+## 58.1.0
+
+### Minor Changes
+
+- Allow setting the native header's light or dark interface style per `Stack` screen on iOS. ([#50765](https://github.com/expo/expo/pull/50765) by [@Ubax](https://github.com/Ubax))
+
+### Patch Changes
+
+- Fix a crash on launch in production when the app has no `scheme`. ([#50708](https://github.com/expo/expo/pull/50708) by [@expo-bot](https://github.com/expo-bot))
+
 ## 58.0.10
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # Changelog
 
+## 58.1.0
+
+### Minor Changes
+
+- Emit `{scheme}://?__expo_url={manifestUrl}` development build launch URLs instead of the legacy `{scheme}://expo-development-client/?url={manifestUrl}` form.
+
+  Add `EXPO_NO_DEV_MENU=1` to append the reserved `__expo_*` params that keep the dev menu closed to Expo Go and development build launch URLs: the terminal URL, the QR code, `/_expo/link`, `/_expo/open`, `expo start --ios/--android` and `expo run:*`.
+
+  ([#50290](https://github.com/expo/expo/pull/50290) by [@gabrieldonadel](https://github.com/gabrieldonadel))
+
 ## 58.0.9
 
 ### Patch Changes
